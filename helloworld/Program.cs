@@ -1,9 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Jan!");
-
-string firstFriend = "Jonas";
-string secondFriend = "Emilie";
-
-string friend = $"My friends are {firstFriend} and {secondFriend}";
-
-Console.WriteLine(friend.Replace("Jonas", "Nam"));
+﻿var names = new List<string> {"Jan", "Ana", "Felipe", "œ"};
+names.Add("Jonas");
+foreach (var name in names)
+{
+    System.Console.WriteLine(name);
+}
